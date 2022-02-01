@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/865a3022a2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../css/creator.css" />
+    <title>Create</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="menu">
+        <button class="mode select">
+          <i class="fas fa-mouse-pointer"></i>
+        </button>
+        <button class="mode line">
+          <img src="https://img.icons8.com/ios/50/000000/line--v1.png" />
+        </button>
+        <button class="mode free"><i class="fas fa-pencil-alt"></i></button>
+        <button class="mode rect"><i class="far fa-square"></i></button>
+        <button class="mode circle"><i class="far fa-circle"></i></button>
+        <button class="mode curve"><i class="fas fa-bezier-curve"></i></button>
+        <button class="mode text"><i class="fas fa-font"></i></button>
+        <button class="mode erase"><i class="fas fa-eraser"></i></button>
+
+        <input type="text" class="memberData name" placeholder="name" />
+        <input type="text" class="memberData surname" placeholder="surname" />
+        <input type="text" class="memberData birth" placeholder="birth" />
+        <input type="text" class="memberData death" placeholder="death" />
+
+        <button class="mode member"><i class="fas fa-plus"></i></button>
+      </div>
+      <canvas id="canvas"> </canvas>
+    </div>
+    <script src="../lib/fabric.min.js"></script>
+    <script src="../JS/creator.js"></script>
+  </body>
+</html>
